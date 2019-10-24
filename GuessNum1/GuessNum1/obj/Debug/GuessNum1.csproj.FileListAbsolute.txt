@@ -1,0 +1,6 @@
+C:\Users\cg2lab\source\repos\SchoolWork1\GuessNum1\GuessNum1\bin\Debug\GuessNum1.exe.config
+C:\Users\cg2lab\source\repos\SchoolWork1\GuessNum1\GuessNum1\bin\Debug\GuessNum1.exe
+C:\Users\cg2lab\source\repos\SchoolWork1\GuessNum1\GuessNum1\bin\Debug\GuessNum1.pdb
+C:\Users\cg2lab\source\repos\SchoolWork1\GuessNum1\GuessNum1\obj\Debug\GuessNum1.csprojAssemblyReference.cache
+C:\Users\cg2lab\source\repos\SchoolWork1\GuessNum1\GuessNum1\obj\Debug\GuessNum1.exe
+C:\Users\cg2lab\source\repos\SchoolWork1\GuessNum1\GuessNum1\obj\Debug\GuessNum1.pdb

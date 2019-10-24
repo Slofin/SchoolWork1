@@ -8,6 +8,12 @@ namespace A
 {
     class Program
     {
+        public static int GetInput()
+        {
+            string input_str = Console.ReadLine();
+            return int.Parse(input_str);
+        }
+
         static void Main(string[] args)
         {
             int answer = new Random().Next(100);
@@ -21,8 +27,7 @@ namespace A
 
                 Console.WriteLine(min + " 到 " + max);
 
-                string input_str = Console.ReadLine();
-                guess = int.Parse(input_str);
+                guess = GetInput();
 
                 if (guess == answer)
                 {
@@ -31,19 +36,19 @@ namespace A
 
                 if (guess > max || guess < min)
                 {
-                    Console.WriteLine("錯誤!");
+                    Console.WriteLine("錯誤!\n");
                 }
-                else
 
-                if (guess > answer)
+                else if (guess > answer)
                 {
                     max = guess;
+                    Console.WriteLine("答案更小!\n");
                 }
 
-
-                if (guess < answer)
+                else if (guess < answer)
                 {
                     min = guess;
+                    Console.WriteLine("答案更大!\n");
                 }
 
             }
